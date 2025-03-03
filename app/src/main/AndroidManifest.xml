@@ -13,6 +13,24 @@
         android:theme="@style/Theme.CambioDePantalla"
         tools:targetApi="31">
         <activity
+            android:name=".Notificaciones"
+            android:exported="false" />
+        <activity
+            android:name=".Usuario"
+            android:exported="false" />
+        <activity
+            android:name=".Ajustes"
+            android:exported="false" />
+        <activity
+            android:name=".Calendario"
+            android:exported="false" />
+        <activity
+            android:name=".Electro"
+            android:exported="false" />
+        <activity
+            android:name=".Salud"
+            android:exported="false" />
+        <activity
             android:name=".IA"
             android:exported="false" />
         <activity
